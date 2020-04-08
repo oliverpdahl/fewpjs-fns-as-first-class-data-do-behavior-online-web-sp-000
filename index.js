@@ -12,7 +12,7 @@ function greet(timeString){
   const splitTimeString = timeString.split(':');
   const hour = parseInt(splitTimeString[0], 10);
   // const minute = parseInt(splitTimeString[1], 10);
-  if (hour > 19) {
+  if (hour > 17) {
     return 'Good Evening'
   } else if (hour > 12) {
     return 'Good Afternoon'
